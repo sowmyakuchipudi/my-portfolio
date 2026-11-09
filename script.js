@@ -1,10 +1,3 @@
-// Form submission alert
-document.getElementById('portfolioForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-    alert('Thank you, Sowmya! Your message has been sent successfully.');
-    this.reset();
-});
-
 // Dynamic Navbar active link on scroll
 window.addEventListener('scroll', () => {
     let current = '';
